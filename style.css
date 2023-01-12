@@ -16,60 +16,32 @@
       }
   }
 
-    body {
-        background-image: url("./Assets/roof.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-
-    h1 {
-        font-size: 150px;
-        color: red;
-    }
-
-
-  /* .container{
-    background-color: rgba(100,201,154);
-    padding : 20px;
-    margin : 50px auto;
-    border : 2px solid white;
-    display : grid;
-    width : 70%;
-  }
+   /* .container{
+    background-image: url("./Assets/roof.jpg");
+    background-position: center;
+    background-size: cover;
+  } */
   .splash{
+    background-image: url("./Assets/roof.jpg");
+    background-position: center;
+    background-size: cover;
     cursor : pointer;
     position : fixed;
     top : 50%;
     left : 50%;
-    height : 95%;
-    width : 95%;
+    height : 100%;
+    width : 100%;
     transform : translate(-50%,-50%);    
-    background-color: rgba(0,0,0);
-    transition : all ease-in-out 600ms;
+    transition : all ease-in-out 1600ms;
   }
-  .hidden{
-    transition : 0.5s;
-    display : none;
-  }
-  .splash-header {
-    height : 90%;
-    color : white;
-    font-family : consolas;
-    font-size : 30px;
-    display : flex;
-    justify-content: center;
-    align-items : center;
-  }
-  
+
   body {
-    background-color: rgba(200,200,170);
-  }
-  
-  .btn {
-    border : none; 
-    padding : 10px;
-    position : fixed;
-    z-index : -1;
-    left : 50%;
-    transform : translateX(-50%);
-  } */
+    background-image: url("./Assets/roof.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: red;
+}
