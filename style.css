@@ -11,13 +11,13 @@
   img#flag {
   display: none;
   }
-  .header {
+  .body {
     background-color: rgb(rgb(46, 76, 100), green, blue);
   }}
   
 
   @media (max-width: 768px) {
-    .main {
+    .body {
       background-color: rgb(rgb(46, 76, 100), green, blue);
     }
     img#flag {
@@ -26,14 +26,11 @@
 }
 
 
-
-
-
-  .header {
+.header {
     position: center;
     grid-area: header;
     color: red;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .main {
@@ -54,17 +51,21 @@
 }
 
 body {
-    background-color: tomato;
     /* background-image: url("./Assets/roof.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 
-    background-color: whitesmoke;
+    background-color: rgb(141, 27, 27);
     display: grid;
     text-align: center;
     grid-template-columns: "auto auto auto";
     grid-template-rows: "auto auto auto";
-    grid-template-areas: "header header header" "aside main previous";
+    grid-template-areas: "header header header" "flagLeft main flagRight";
 }
+
+/* button:hover {
+  border: 2px solid #4f7d5d;
+  background: #5c946e;
+} */

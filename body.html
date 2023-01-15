@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=shadow-multiple">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css"/>
     <script defer src="./main.js"></script>
+    <style>
+        body {
+          font-family: "Audiowide", sans-serif;
+        }
+        </style>
 </head>
 <body>
     <header class="header">
         <br>
-<h1>Welcome Formula 1 Fans !</h1>
+        <h1 class="font-effect-shadow-multiple">Welcome Formula 1 Fans !</h1>       
+
 <br>
     </header>
 
@@ -22,21 +29,39 @@
 
 
     <main class="main">
-
+        <p></p>
             <h1>Pick your favorite driver</h1>
-            <form id="driver">
-                <br>
-                <label for="driver">Pick from dropdown menu</label>
-                <input id="inputText"type="text" name="driver" value=""/>
-                <input id="submitdriver" type="submit" value="submit" />
-            </form>
+            <!-- <div class="dropdown">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#home">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                    </div>
+                  </div> -->
+
+
+                <!-- <input id="inputText"type="text" name="driver" value=""/>
+                <input id="submitdriver" type="submit" value="submit" /> -->
+            <!-- </form> -->
+        </div>
     </main>
 
 
     <aside class="flagRight">
         <img id="flag"src="./Assets/checkFlag.png" alt="checkered flag"/>
+        <br>
+        <p>for more info on the API...</p>
+        <a href="http://ergast.com">
+        <button type="button">Click me to see API info</button>
+        </a>
     </aside>
 
 
 </body>
 </html>
+
+<!-- <option>Alonso</option>
+<option>Hamilton</option>
+<option>massa</option> -->
