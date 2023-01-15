@@ -1,47 +1,70 @@
+
+
 @media (max-width: 1200px) {
     p {
         color: rgb(60, 76, 92);
       }
   }
   
+
   @media (max-width: 992px) {
-    p {
-        color: lightslategray;
-      }
+  img#flag {
+  display: none;
   }
+  .header {
+    background-color: rgb(rgb(46, 76, 100), green, blue);
+  }}
   
+
   @media (max-width: 768px) {
-    p {
-        color: rgb(209, 217, 224);
+    .main {
+      background-color: rgb(rgb(46, 76, 100), green, blue);
+    }
+    img#flag {
+      display: none;
       }
-  }
-
-   /* .container{
-    background-image: url("./Assets/roof.jpg");
-    background-position: center;
-    background-size: cover;
-  } */
-  .splash{
-    background-image: url("./Assets/roof.jpg");
-    background-position: center;
-    background-size: cover;
-    cursor : pointer;
-    position : fixed;
-    top : 50%;
-    left : 50%;
-    height : 100%;
-    width : 100%;
-    transform : translate(-50%,-50%);    
-    transition : all ease-in-out 1600ms;
-  }
-
-  body {
-    background-image: url("./Assets/roof.jpg");
-    background-position: center;
-    background-size: cover;
 }
 
-h1 {
-    font-size: 50px;
+
+
+
+
+  .header {
+    position: center;
+    grid-area: header;
     color: red;
+    font-size: 30px;
+}
+
+.main {
+    text-align: center;
+    grid-area: main;
+}
+
+.flagRight {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.flagLeft {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body {
+    background-color: tomato;
+    /* background-image: url("./Assets/roof.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    background-color: whitesmoke;
+    display: grid;
+    text-align: center;
+    grid-template-columns: "auto auto auto";
+    grid-template-rows: "auto auto auto";
+    grid-template-areas: "header header header" "aside main previous";
 }

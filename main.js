@@ -1,7 +1,9 @@
-var splashScreen = document.querySelector('.splash');
-splashScreen.addEventListener('click',()=>{
-  splashScreen.style.opacity = 0;
-  setTimeout(()=>{
-    splashScreen.classList.add('hidden')
-  },610)
-})
+const drivers = "http://ergast.com/api/f1/drivers?limit=1000"
+const constructors = "http://ergast.com/api/f1/constructors?limit=1000"
+const limit = "?limit = 1000"
+
+
+
+
+document.querySelector("form").addEventListener("submit", (event) => {
+    event.preventDefault()})
