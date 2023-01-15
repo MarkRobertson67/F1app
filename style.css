@@ -34,6 +34,7 @@
 }
 
 .main {
+    font-size: 15px;
     text-align: center;
     grid-area: main;
 }
@@ -52,9 +53,9 @@
 
 body {
     /* background-image: url("./Assets/roof.jpg"); */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 
 
     background-color: rgb(141, 27, 27);
@@ -65,7 +66,8 @@ body {
     grid-template-areas: "header header header" "flagLeft main flagRight";
 }
 
-/* button:hover {
-  border: 2px solid #4f7d5d;
-  background: #5c946e;
-} */
+button:hover {
+  border: 2px solid #000201;
+  background: #df0b0b;
+}
+
