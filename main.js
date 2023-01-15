@@ -17,13 +17,13 @@ fetch(drivers)
     }
 })
 
-questionButton.addEventListener('submit', (event) => {
-    event.preventDefault()
+// questionButton.addEventListener('submit', (event) => {
+//     event.preventDefault()
 
-    fetch(`${drivers}${driver}${json1}`)
-  .then((res) => res.json())
-    .then((response) => {
-        console.log(response.results)
+//     fetch(`${drivers}${driver}${json1}`)
+//   .then((res) => res.json())
+//     .then((response) => {
+//         console.log(response.results)
 
-    })
+//     })
 
