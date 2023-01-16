@@ -33,13 +33,30 @@
 
     <main class="main">
          
-            <form>
-                <label for="lastName">Input driver's last name</label>
-                <input type="text" id="driverName" value="Alonso">
-                <input type="submit" value="Submit">
+            <div class=""dropdown">
+            <label for="teamNames">Choose a team name:</label>
+            <select name="teamNames" id="teamNames">
+                <option value="ferrari">Ferrari</option> 
+              <option value="mercedes">Mercedes</option> 
+              <option value="alpine">Alpine F1 Team</option> 
+              <option value="McLaren">mcLaren</option> 
+              <option value="haas">Haas F1 Team</option> 
+              <option value="red_bull">Red Bull Racing</option> 
+              <option value="aston_martin">Aston Martin</option> 
+              <option value="alphatauri">AlphaTauri</option> 
+              <option value="Williams">williams</option>
+              <option value="alfa">Alfa Romeo</option> 
+            </select>
+            </div>
+
+            <script>
+                let listItem = document.getElementById('teamNames');
+                listItem.onchange = (ev) =>{
+                  console.log("Selected value is: " + listItem.value);
+                }
+              </script>
 
 
-            </form>
 
         
     </main>
