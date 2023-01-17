@@ -4,13 +4,11 @@ const URL_START = "http://ergast.com/api/f1/constructors/"
 
 
 
+
 fetch(`${constructors}`)
   .then((response) => response.json())
   .then((data) => console.log(data));
-//   let listItem = document.getElementById('teamNames');
-//   listItem.onchange = (ev) =>{
-//     console.log("Selected value is: " + listItem.value);
-//  }
+
 
   
   document.getElementById("teamNames").addEventListener('change', (event) => {
