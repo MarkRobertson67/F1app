@@ -11,15 +11,28 @@
   img#flag {
   display: none;
   }
+  .aside.flagLeft{display: none;}
+  .aside.flagRight{display: none;}
+  .header{display: 50%;}
+  .footer{display: none;}
   .body {
     background-color: rgb(rgb(46, 76, 100), green, blue);
+    width: auto;
+    height: auto;
   }}
   
 
   @media (max-width: 768px) {
+    .aside.flagLeft{display: none;}
+    .aside.flagRight{display: none;}
+    .h1{display: none;}
+    .footer{display: none;}
     .body {
       background-color: rgb(rgb(46, 76, 100), green, blue);
+      width: auto;
+      height: auto;
     }
+    
     img#flag {
       display: none;
       }
@@ -34,7 +47,7 @@
 }
 
 .main {
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     grid-area: main;
 }
@@ -52,24 +65,29 @@
 }
 
 body {
-    /* background-image: url("./Assets/roof.jpg"); */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-
-
+    font-size: 25px;
     background-color: rgb(141, 27, 27);
     display: grid;
     text-align: center;
     grid-template-columns: "auto auto auto";
     grid-template-rows: "auto auto auto";
-    grid-template-areas: "header header header" "flagLeft main flagRight";
+    grid-template-areas: "header header header" "flagLeft main flagRight" "footer footer footer";
+}
+
+ul {
+  font-size: 25px;
+  display: block;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }
 
 button:hover {
   border: 2px solid #000201;
   background: #df0b0b;
-  transition-duration: 2s;
- 
+  transition-duration: .5s;
 }
 

@@ -14,17 +14,16 @@
         }
         </style>
 </head>
+
 <body>
     <header class="header">
         <br>
         <h1 class="font-effect-shadow-multiple">Welcome Formula 1 Fans !</h1>       
-
     </header>
-
 
     <aside class="flagLeft">
         <img id="flag"src="./Assets/checkFlag.png" alt="checkered flag"/>
-        <p>Get added to oput mailing list !</p>
+        <p>Sign our visitors book</p>
         <a href="./secondBody.html">
         <div class="hover"><button type="button">Click me</button></div>
         </a>
@@ -33,34 +32,45 @@
 
     <main class="main">
          
-            <div class=""dropdown">
-            <label for="teamNames">Choose a team name:</label>
-            <select name="teamNames" id="teamNames">
-                <option value="ferrari">Ferrari</option> 
-              <option value="mercedes">Mercedes</option> 
-              <option value="alpine">Alpine F1 Team</option> 
-              <option value="McLaren">mcLaren</option> 
-              <option value="haas">Haas F1 Team</option> 
-              <option value="red_bull">Red Bull Racing</option> 
-              <option value="aston_martin">Aston Martin</option> 
-              <option value="alphatauri">AlphaTauri</option> 
-              <option value="Williams">williams</option>
-              <option value="alfa">Alfa Romeo</option> 
-            </select>
+            <div id=""dropdownForm">
+              <label for="teamNames">Choose a team name:</label>
+                <select name="teamNames" id="teamNames">
+                  <option style="display:none">
+                 <option value="ferrari">Ferrari</option> 
+                 <option value="mercedes">Mercedes</option> 
+                 <option value="alpine">Alpine F1 Team</option> 
+                 <option value="mcLaren">McLaren</option> 
+                 <option value="haas">Haas F1 Team</option> 
+                 <option value="red_bull">Red Bull Racing</option> 
+                <option value="aston_martin">Aston Martin</option> 
+                <option value="alphatauri">AlphaTauri</option> 
+                <option value="williams">Williams</option>
+                <option value="alfa">Alfa Romeo</option> 
+             </select>
+          </div>
+
+            <div class="results">
+           
+                <br><br>
+                Here are the reults:
+
+            <article>
+            <ul style="line-height:180%">
+                URL: <li id="URL"><a id="urllink"></a></li>
+                <br>
+                Name: <li id="name"></li>
+                <br>
+                Nationality: <li id="nationality"></li>
+            </article> 
+            </ul>
             </div>
 
             <script>
-                let listItem = document.getElementById('teamNames');
-                listItem.onchange = (ev) =>{
-                  console.log("Selected value is: " + listItem.value);
-                }
+               
               </script>
-
-
 
         
     </main>
-
 
     <aside class="flagRight">
         <img id="flag"src="./Assets/checkFlag.png" alt="checkered flag"/>
@@ -71,10 +81,13 @@
         </a>
     </aside>
 
+    <footer>
+    <div class="footer">
+        <center><audio controls autoplay loop>
+            <source src="./Assets/monza-track-side-69992.mp3" type="audio/mpeg">
+          </audio></center>
+          </div>
+        </footer>  
 
 </body>
 </html>
-
-<!-- <option>Alonso</option>
-<option>Hamilton</option>
-<option>massa</option> -->
