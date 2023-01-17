@@ -9,12 +9,13 @@
 </head>
 <body>
     <h2><center>Thanks for signing our visitors book !</h2></center>
+    <h4><center><strong>please enter letters only</h4></strong></center>
 <form id="myForm"><center>
 <form action="/action_page.txt">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="text" required pattern=[a-zA]id="fname" name="fname" value=""><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="text" required id="lname" name="lname" value=""><br><br>
   <input type="submit" value="Submit" onclick="myFunction">
 </center>
 </form>
@@ -27,9 +28,10 @@ function myFunction() {
 
 </script>
 <br><br>
-<div class="hover"><center><input type="button" class="btn btn-lg btn-success" onclick="location.href='body.html';" value="Home" /></center>
+<div class="hover"><center><input type="button" class="btn btn-lg btn-success" onclick="location.href='body.html';" value="Home" /></center><br><br><br><br><br><br>
 
 
 </form> 
+<img src="./Assets/redCar.png" width="600" height="300">
 </body>
 </html>

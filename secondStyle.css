@@ -9,3 +9,9 @@ body {
     background: #df0b0b;
     transition-duration: .5s;
   }
+  .img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+  }
+
