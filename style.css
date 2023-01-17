@@ -3,10 +3,11 @@
 @media (max-width: 1200px) {
     p {
         color: rgb(60, 76, 92);
+        width: auto;
+        height: auto;
       }
   }
   
-
   @media (max-width: 992px) {
   img#flag {
   display: none;
@@ -21,7 +22,6 @@
     height: auto;
   }}
   
-
   @media (max-width: 768px) {
     .aside.flagLeft{display: none;}
     .aside.flagRight{display: none;}
@@ -37,7 +37,6 @@
       display: none;
       }
 }
-
 
 .header {
     position: center;
