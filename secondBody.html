@@ -13,24 +13,25 @@
 <form id="myForm"><center>
 <form action="/action_page.txt">
   <label for="fname">First name:</label><br>
-  <input type="text" required pattern=[a-zA]id="fname" name="fname" value=""><br>
+  <input type="text" name="field" onkeydown="return /\p{L}/u.test(event.key)" ><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" required id="lname" name="lname" value=""><br>
-  <input type="submit" value="Submit">   
-  <!-- onclick="myFunction"> -->
+  <input type="text" name="field" onkeydown="return /\p{L}/u.test(event.key)" ><br><br>
+  <input type="submit" value="Submit"><br>  
+ 
+
 </center>
 </form>
 
-  <script>
+<script>
 
 function myFunction() {
   document.getElementById("myForm").reset();
 }
 </script>
-
+<br>
 <div class="hover"><center><input type="button" class="btn btn-lg btn-success" onclick="location.href='index.html';" value="Home" /></center><br><br><br>
 
 </form> 
-<img src="./Assets/redCar.png" width="600" height="300">
+<img src="./Assets/redCar.png" width="550" height="250">
 </body>
 </html>
