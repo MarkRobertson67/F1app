@@ -42,7 +42,9 @@
     position: center;
     grid-area: header;
     color: red;
-    font-size: 28px;
+    height: 700;
+    font-size: 25px;
+
 }
 
 .main {

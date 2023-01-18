@@ -2,6 +2,7 @@ body {
     background-color: rgb(141, 27, 27);
     display: grid;
     text-align: center;
+    max-height: fit-content;
 }
 
 .button {
