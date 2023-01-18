@@ -1,6 +1,6 @@
 
-const constructors = "http://ergast.com/api/f1/constructors.json"
-const URL_START = "http://ergast.com/api/f1/constructors/"
+const constructors = "https://ergast.com/api/f1/constructors.json"
+const URL_START = "https://ergast.com/api/f1/constructors/"
 
 
 
